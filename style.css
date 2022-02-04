@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed:ital@0;1&family=Titillium+Web:wght@700&display=swap');
+
+body{
+background: rgb(3,2,24 );
+background: linear-gradient(90deg, rgba(3,2,24,1) 38%, rgba(4,13,50,1) 62%, rgba(5, 49, 99, 0.87) 96%);
+}
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 60px;
+  padding-top: 30px;
+  display: block;
+}
+h2{
+  color: rgb(75, 21, 173);
+  font-family: 'Roboto', sans-serif;
+  margin-left: 70px;
+  padding-top: 0;
+}
+.container-valor {
+  background: rgb(26, 25, 25);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  margin-top: 30vh;
+  height: 44px;
+  width: 150px;
+ align-items: center;
+ margin-left: 66px;
+ font-family: 'Righteous',sans-serif;
+ bottom: 80px;
+ position: relative;
+}
+div input{
+ display: block;
+  width: 200px;
+  height: 37px;
+  bottom: 12px;
+  border-radius: 10px;
+  background: rgb(19, 19, 24);
+  color: white;
+  border:none;
+}
+div label {
+  color: aliceblue;
+  font: normal 13pt arial;
+
+}
+#datar {
+ margin-left: 56vh;
+ position:relative;
+ bottom:27vh;
+ width: 120px;
+}
+#data{
+  margin-left: 57vh;
+  position: relative;
+  bottom: 29vh;
+}
+#cvr {
+  margin-left: 56vh;
+  width: 80px;
+  position: relative;
+  bottom:16vh ;
+}
+#cv {
+  margin-left: 59vh;
+  position: relative;
+  bottom: 18vh;
+}
+#nomer {
+ margin-top: 40px;
+ margin-left: 20px;
+}
+#nome {
+  position:relative;
+  margin-left: 50px;
+  top: 20px;
+}
+#number {
+  margin-top: 14vh;
+  position: static;
+  margin-left: 20px;
+}
+#numero {
+position: absolute;
+margin-top: 8vh;
+margin-left: 50px;
+}
+#botao {
+  margin-left: 88vh;
+  bottom: 2vh;
+  position: absolute;
+  border-radius: 9px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(90deg, rgb(18, 2, 75) 38%, rgba(4,13,50,1) 62%, rgba(5, 49, 99, 0.87) 96%);
+  color: beige;
+  font-family: 'Righteous',sans-serif;
+  border: none;
+}
+
+#cartao {
+bottom: 46vh;
+position: absolute;
+width: 348px;
+margin-left: 130vh;
+}
+img {
+animation:flutuacao 10s ease-in-out infinite ;
+}
+@keyframes flutuacao {
+  0%, 100%{
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
